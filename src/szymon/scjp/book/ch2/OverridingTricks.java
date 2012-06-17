@@ -23,7 +23,7 @@ class Ala {
 }
 
 class KoAla extends Ala {
-	public String ma(Kot a) {			// THIS IS NOT AN OVERRIDE - the argument list has to be EXACTLY the same
+	public String ma(Kot a) {			// THIS IS NOT AN OVERRIDE - the argumetn list has to be EXACTLY the same
 										// IT'S AN OVERLOAD
 		return(a.toString() + " sub");
 	}

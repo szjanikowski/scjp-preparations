@@ -12,7 +12,7 @@ class A {
 	}
 }
 
-class  B extends A{
+class B {
 	public static void b (Integer a1, Integer a2) {
 		out.println("Integer,Integer");
 	}
