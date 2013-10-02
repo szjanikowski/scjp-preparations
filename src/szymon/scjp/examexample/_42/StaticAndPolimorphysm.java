@@ -3,10 +3,13 @@ package szymon.scjp.examexample._42;
 class Gadget {
 	Gadget openStuff() { s = s + "g "; return this;}
 	static String s = "";
+	int a;
 }
 
 
 class Opener extends Gadget {
+	static String s ="cos";
+	int a = 5;
 	Opener openStuff() {
 		s = s + "o "; return this;
 	}
@@ -19,6 +22,7 @@ public class StaticAndPolimorphysm {
 		g1.openStuff();
 		g2.openStuff();
 		System.out.println(Gadget.s);
+		System.out.println(Opener.s);
 	}
 	
 }

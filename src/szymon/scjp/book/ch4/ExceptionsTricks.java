@@ -4,8 +4,7 @@ class MyRuntimeException extends RuntimeException {}
 
 public class ExceptionsTricks {
 
-	
-	int doStuff() {
+	static int doStuff() {
 		if("00" == "AA")
 			throw new MyRuntimeException();
 		return 0;

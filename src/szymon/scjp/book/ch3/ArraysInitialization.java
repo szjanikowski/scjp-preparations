@@ -6,7 +6,7 @@ public class ArraysInitialization {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String[] a = null;
+		final String[] a;
 		a = new String[10];
 		
 		//a[1] = (String)(new Integer(10));

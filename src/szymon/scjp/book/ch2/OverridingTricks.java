@@ -34,9 +34,9 @@ public class OverridingTricks {
 
 
 	public static void main(String[] args) {
-		Zwierz z2 = new Zwierz("Igor");
-		Zwierz z1 = new Kot("Stefan");
-		Kot k1 = (Kot)z1;
+		Zwierz z1 = new Zwierz("Igor");
+		Zwierz z2 = new Kot("Stefan");
+		Kot k1 = (Kot)z2;
 		
 		Ala a1 = new Ala();
 		Ala a2 = new KoAla();

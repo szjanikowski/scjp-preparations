@@ -1,12 +1,14 @@
 package szymon.scjp.examexample._41;
 
 class Bird {
-	protected void talk() {}
+	String s = "A";
+	protected void talk() {System.out.println("hello1 " + s); }
 }
 
 class Macaw extends Bird {
+	String s = "B";
 	// remove protected to see the problem
-	protected void talk() { System.out.print("hello "); }
+	//protected void talk() { System.out.println("hello2 " + s); }
 	
 }
 
